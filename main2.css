@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.playlist {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #703737;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #000000;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+img {
+  max-width: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+}
+
+audio {
+  width: 100%;
+  margin-top: 20px;
+}
